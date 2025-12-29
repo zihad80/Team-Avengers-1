@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  background: #050b1e;
+  color: white;
+}
+.logo {
+  height: 40px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  background: linear-gradient(180deg, #0a1f44, #020617);
+  color: white;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  color: #cbd5f5;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.primary {
+  background: white;
+  color: black;
+}
+
+.outline {
+  border: 2px solid white;
+  color: white;
+}
+
+/* Robot */
+.hero-image img {
+  max-width: 320px;
+}
+
+/* Section */
+.section {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.section p {
+  max-width: 700px;
+  margin: auto;
+  color: #444;
+}
+
+/* PDF Section */
+.dark {
+  background: #0f172a;
+  color: white;
+}
+
+iframe {
+  width: 90%;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.download {
+  display: inline-block;
+  margin-top: 20px;
+  color: #38bdf8;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #020617;
+  color: #aaa;
+  padding: 15px;
+  text-align: center;
+}
